@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: rtl;
+  background-color: #c8e0a8; /* سبز مشابه طراحی */
+  color: #222;
+  line-height: 1.9;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.image-section {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.bio {
+  margin: 40px 0;
+}
+
+.bio h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.bio p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.video-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.video-section h2 {
+  margin-bottom: 20px;
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+  background: #ccc;
+}
